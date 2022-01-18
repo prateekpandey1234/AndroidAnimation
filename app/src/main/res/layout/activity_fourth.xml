@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="302dp"
+        android:transitionName="example_transition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="409dp"
+        android:layout_height="427dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper erat libero, a gravida elit egestas eget. Praesent vestibulum dapibus elit, vitae convallis tortor efficitur a. Nulla in massa viverra eros ultricies aliquet eget eu ligula. Sed sollicitudin sed lacus non tempor. Etiam id volutpat magna, at lobortis velit. Cras pulvinar ornare nulla ut eleifend. Proin libero tellus, tincidunt sit amet dolor sit amet, pulvinar vestibulum dolor.
+Pellentesque in mauris tristique, luctus ligula non, fermentum orci. Morbi condimentum blandit velit ullamcorper dictum. Aliquam sit amet arcu justo. Nam porta pharetra erat, sit amet vehicula nisl vulputate ac. Vestibulum a finibus elit, eget mattis odio. Ut lobortis, purus maximus tincidunt iaculis, libero dolor ultrices dolor, at ornare lorem est non sapien. Morbi vehicula dui sit amet vulputate malesuada. Quisque ornare libero sit amet tortor lacinia, nec sollicitudin dolor cursus. In congue ornare lorem a ultrices. Quisque vel quam nec mi maximus laoreet id at nisl. Fusce eu fermentum quam. Cras finibus porta venenatis. Suspendisse vel dolor eu dolor rhoncus ornare. Aliquam venenatis sed turpis vel pulvinar.
+tibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus semper convallis urna, a mollis sem vehicula at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum porttitor magna sed nibh commodo, tincidunt tincidunt quam maximus."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
